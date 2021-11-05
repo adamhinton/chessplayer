@@ -58,32 +58,26 @@ table {
 }
 
 *{
-    box-sizing: border-box;
-    max-width: 100%;
+     box-sizing: border-box;
+    max-width: 100%; 
 }
 
 .board{
     border: 1px solid red;
     width: 75vh;
     height: 75vh;
-    background-color: blue;
-    margin: 0;
     display: flex;
     flex-wrap: wrap;
     margin: 12.5%;
 }
 
 .square{
+    display: flex;
     height: 12.5%;
     width: 12.5%;
     border: 1px solid red;
-    /* background-color: black; */
-    color:white
+    display: flex;
 }
-
-/* .square:nth-child(2n){
-    background-color: blue;
-} */
 
 .even-row:nth-child(2n){
     background-color: pink;
@@ -100,19 +94,3 @@ table {
 .odd-row:nth-child(2n){
     background-color: green;
 }
-
-/* .row8:nth-child(2n){
-background-color: pink;
-}
-
-.row8:nth-child(2n -1){
-    background-color: green;
-}
-
-.row7:nth-child(2n){
-    background-color: GREEN;
-}
-        
-.row7:nth-child(2n -1){
-    background-color: pink;
-} */
