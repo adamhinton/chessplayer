@@ -50,8 +50,45 @@ table {
 }
 
 /* END CSS RESET */
+header{
+    margin: 2%;
+    background-color: rgb(37, 28, 28);
+    padding: 2%;
+}
 
-.container{
+header a{
+    margin: 5%;
+    text-decoration: none;
+    color: rgb(240, 204, 204);
+}
+
+/* dropdown */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/* dropdown */
+
+.dropdown-content p {
+    color: black
+}
+
+
+.content{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -94,3 +131,4 @@ table {
 .odd-row:nth-child(2n){
     background-color: green;
 }
+
