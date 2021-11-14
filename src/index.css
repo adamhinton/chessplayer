@@ -57,7 +57,7 @@ header{
 }
 
 header a{
-    margin: 5%;
+    margin: 2%;
     text-decoration: none;
     color: rgb(240, 204, 204);
 }
@@ -92,6 +92,7 @@ header a{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: rgb(175, 175, 192);
 }
 
 *{
