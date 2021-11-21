@@ -103,7 +103,7 @@ header a{
 .board{
     display: flex;
     border: 1px solid red;
-    width: 75vh;
+    width: 75vw;
     height: 75vh;
     flex-wrap: wrap;
     margin: 12.5%;
