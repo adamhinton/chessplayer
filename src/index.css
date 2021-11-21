@@ -50,6 +50,11 @@ table {
 }
 
 /* END CSS RESET */
+*{
+    box-sizing: border-box;
+   max-width: 100%; 
+}
+
 header{
     margin: 2%;
     background-color: rgb(37, 28, 28);
@@ -95,16 +100,11 @@ header a{
     background-color: rgb(175, 175, 192);
 }
 
-*{
-     box-sizing: border-box;
-    max-width: 100%; 
-}
-
 .board{
+    display: flex;
     border: 1px solid red;
     width: 75vh;
     height: 75vh;
-    display: flex;
     flex-wrap: wrap;
     margin: 12.5%;
 }
